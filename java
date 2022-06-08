@@ -33,6 +33,9 @@ public class Aula {
 
          Scanner Sobremesas = new Scanner(System.in);
          System.out.print("Selecione um prato: \n 1 - Abacaxi \n 2 - Sorvete diet \n 3 - Mouse diet \n 4 - Mouse chocolate");
+	 
+	        int prato = pratos.nextInt();
+		switch (prato) {
          
          int Sobremesa = Sobremesa = Sobremesas.nextInt();
          switch (Sobremesa) {
@@ -40,4 +43,7 @@ public class Aula {
         	 System.out.println("Abacaxi 75 cal");
         	 break;
          case 2:
-         }
+                System.out.println("Sorvete 110 cal");
+		break;
+	case3:	
+	
